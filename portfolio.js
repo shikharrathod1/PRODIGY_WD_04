@@ -1,1 +1,2 @@
-console.log("Prodigy Portfolio Loaded Successfully");
+// Portfolio loaded confirmation
+console.log("Prodigy portfolio loaded successfully");
