@@ -1,95 +1,106 @@
-<!-- Final update -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Shikhar Rathod | Prodigy InfoTech Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shikhar Rathod | Web Developer Portfolio</title>
-  <link rel="stylesheet" href="style.css">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Google Font (same clean vibe everywhere) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- NAVIGATION -->
-  <nav>
-    <div class="logo">Shikhar Rathod</div>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <!-- NAVBAR (same simple style as tasks) -->
+  <header class="navbar">
+    <h1>Shikhar Rathod</h1>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
 
-  <!-- HOME SECTION -->
-  <section id="home" class="section home">
-    <div class="home-content">
-      <h1>Hi, I'm <span>Shikhar Rathod</span></h1>
-      <p>Web Developer | Frontend Enthusiast | Internship Projects Showcase</p>
-      <a href="#projects" class="btn">View My Work</a>
-    </div>
+  <!-- HERO -->
+  <section class="hero">
+    <h2>Prodigy InfoTech Web Development Internship</h2>
+    <p>All completed tasks with live working demos</p>
   </section>
 
-  <!-- ABOUT SECTION -->
-  <section id="about" class="section about">
-    <h2>About Me</h2>
-    <div class="about-content">
-      <div>
-        <p>Hello! I am a passionate web developer currently pursuing Computer Science Engineering. I love building interactive web applications and continuously improving my skills through internships and projects.</p>
-        <p>Education: Bachelor of Engineering, SPPU University, Pune</p>
-      </div>
-    </div>
-  </section>
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <h2>My Tasks</h2>
 
-  <!-- SKILLS SECTION -->
-  <section id="skills" class="section skills">
-    <h2>Skills</h2>
-    <div class="skills-content">
-      <div class="skill">HTML5</div>
-      <div class="skill">CSS3</div>
-      <div class="skill">JavaScript</div>
-      <div class="skill">Git & GitHub</div>
-      <div class="skill">Responsive Design</div>
-      <div class="skill">Bootstrap</div>
-    </div>
-  </section>
+    <div class="project-grid">
 
-  <!-- PROJECTS SECTION -->
-  <section id="projects" class="section projects">
-    <h2>Projects</h2>
-    <div class="projects-content">
+      <!-- TASK 1 -->
       <div class="project-card">
-        <h3>Task-1 | Cybersecurity Website</h3>
-        <a href="https://github.com/YOUR_USERNAME/PRODIGY_WD_01" target="_blank">View Code</a>
+        <h3>Task 1 – Navigation / Landing Page</h3>
+        <p>
+          Responsive navigation-based landing page built using
+          HTML, CSS, and JavaScript.
+        </p>
+        <a href="https://shikharrathod1.github.io/PRODIGY_WD_01/" target="_blank">
+          View Live
+        </a>
       </div>
+
+      <!-- TASK 2 -->
       <div class="project-card">
-        <h3>Task-2 | Stopwatch Web App</h3>
-        <a href="https://github.com/YOUR_USERNAME/PRODIGY_WD_02" target="_blank">View Code</a>
+        <h3>Task 2 – Stopwatch</h3>
+        <p>
+          Functional stopwatch with start, stop, and reset features
+          using JavaScript logic.
+        </p>
+        <a href="https://shikharrathod1.github.io/PRODIGY_WD_02/" target="_blank">
+          View Live
+        </a>
       </div>
+
+      <!-- TASK 3 -->
       <div class="project-card">
-        <h3>Task-3 | Tic-Tac-Toe Game</h3>
-        <a href="https://github.com/YOUR_USERNAME/PRODIGY_WD_03" target="_blank">View Code</a>
+        <h3>Task 3 – Tic Tac Toe</h3>
+        <p>
+          Interactive Tic Tac Toe game with win detection
+          and clean UI.
+        </p>
+        <a href="https://shikharrathod1.github.io/PRODIGY_WD_03/" target="_blank">
+          View Live
+        </a>
       </div>
+
+      <!-- TASK 5 -->
+      <div class="project-card">
+        <h3>Task 4 – Weather Application</h3>
+        <p>
+          Weather app fetching real-time data using API
+          and displaying results dynamically.
+        </p>
+        <a href="https://shikharrathod1.github.io/PRODIGY_WD_05/" target="_blank">
+          View Live
+        </a>
+      </div>
+
     </div>
   </section>
 
-  <!-- CONTACT SECTION -->
-  <section id="contact" class="section contact">
-    <h2>Contact Me</h2>
-    <div class="contact-content">
-      <p>Email: <a href="mailto:shikharrathod1@gmail.com">shikharrathod1@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/shikhar-rathod" target="_blank">View Profile</a></p>
-      <p>GitHub: <a href="https://github.com/YOUR_USERNAME" target="_blank">View Repos</a></p>
-    </div>
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>
+      I am a Web Development Intern at Prodigy InfoTech.
+      This portfolio showcases all the tasks completed during the internship,
+      following a consistent design and clean user experience.
+    </p>
   </section>
 
+  <!-- FOOTER -->
   <footer>
-    <p>&copy; 2026 Shikhar Rathod | All Rights Reserved</p>
+    <p>© 2026 Shikhar Rathod | Prodigy InfoTech</p>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- JS -->
+  <script src="portfolio.js"></script>
 </body>
 </html>
